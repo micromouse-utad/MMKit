@@ -1,8 +1,28 @@
-It provides an object-oriented interface for Micromouse Kit Robot
+# Micromouse Kit library 
 
-Micromouse Kit library For information on installing libraries, see: http://arduino.cc/en/Guide/Libraries The MMkit is a library that helps you to program the MMKit There are several examples: 
+The MMkit is a library that provides an object-oriented interfacefor the [MicroMouse Kit Robot](https://www.micromouse.utad.pt/?page_id=998&lang=en), as well as some examples to help you start to program the MMKit. \
+Some of this examples are: 
 
-Basic: MoveFoward TurnLeft TurnRight TesteIRSensors 
+Basic: 
+- MoveFoward
+- TurnLeft
+- TurnRight
+- TesteIRSensors 
 
-Advanced: FloodFillAlgorithm RandomNextMove RightWallFollow
+Advanced: 
+- FloodFillAlgorithm
+- RandomNextMove
+- RightWallFollow
 
+## Instalation
+
+To install the library you need to first download its [latest release](https://github.com/micromouse-utad/MMKit/releases/latest)
+, as weel as the AccelStepper library provided. \
+After both downloads have finished, add the libraries as zip files in the Arduino IDE. \
+To do so, open the IDE an go:
+
+![Image](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
+
+After, just select the path on your local machine to the libraries.
+
+For more information on how to intall the libraries, check: https://www.arduino.cc/en/Guide/Libraries#toc4
