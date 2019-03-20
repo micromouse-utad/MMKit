@@ -14,7 +14,7 @@ Advanced:
 - RandomNextMove
 - RightWallFollow
 
-## Instalation
+## Installation
 
 To install the library you need to first download its [latest release](https://github.com/micromouse-utad/MMKit/releases/latest)
 , as weel as the AccelStepper library provided. \
