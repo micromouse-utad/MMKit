@@ -1,4 +1,3 @@
-/**@file*/
 unsigned char nextMove(unsigned char State)
 {
   unsigned char nMove=State;

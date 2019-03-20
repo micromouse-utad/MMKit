@@ -1,4 +1,3 @@
-/**@file*/
 unsigned char nextMove(void)
 {
   unsigned char nMove;
@@ -344,18 +343,10 @@ unsigned char nextMove(void)
   if (Grigoras.current_cell.wall==B00000111){
     Serial.println("Beco sem saida");
     nMove = STATE_MOV_UTURN;
-        if(75+Step<=255){
-          Map[Grigoras.current_cell.y][Grigoras.current_cell.x]=75+Step;
-        }else{
-          Map[Grigoras.current_cell.y][Grigoras.current_cell.x]=255;
-        }
+    Map[Grigoras.current_cell.y][Grigoras.current_cell.x]=100+Step;
     for(int i=Step;i>=0;i--){
       if((Grigoras.track[i].wall==B00000101)||(Grigoras.track[i].wall==B00000110)||(Grigoras.track[i].wall==B00000011)){
-        if(75+i<=255){
-          Map[Grigoras.track[i].y][Grigoras.track[i].x]=75+i;
-        }else{
-          Map[Grigoras.track[i].y][Grigoras.track[i].x]=255;
-        }
+        Map[Grigoras.track[i].y][Grigoras.track[i].x]=100+Step;
       }
       else{
         Step=i;

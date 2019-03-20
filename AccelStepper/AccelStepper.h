@@ -456,8 +456,10 @@ public:
     /// move() or moveTo()
     void           computeNewSpeed();
     void           computeNewSpeed(int correction);
-
-
+    
+	/// Checks to see if the motor is currently running to a target
+    /// \return true if the speed is not zero or not at the target position
+    bool    isRunning();
 protected:
 
     /// \brief Direction indicator

@@ -1,4 +1,3 @@
-/**@file*/
 void robotMove(void)
 {
   a=a+1;

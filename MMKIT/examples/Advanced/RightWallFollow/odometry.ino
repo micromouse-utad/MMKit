@@ -1,4 +1,3 @@
-/**@file*/
 unsigned char odometry(unsigned char THETA, unsigned char MOVE){
   //Grigoras.current_cell.theta
   switch (MOVE){

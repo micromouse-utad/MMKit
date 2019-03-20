@@ -1,4 +1,3 @@
-/**@file*/
 /* 
  This example was created by Sérgio Silva
  on the 20th April 2015

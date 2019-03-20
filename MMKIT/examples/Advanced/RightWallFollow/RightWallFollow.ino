@@ -1,4 +1,3 @@
-/**@file*/
 /* 
  This example was created by Sérgio Silva
  on the 20th April 2015
@@ -36,8 +35,6 @@ unsigned char toMove = STATE_MOV_FRONT;
 boolean turn=false;
 unsigned int velocidade=10;
 double aceleration=1;  //usada para chegar a velocidade
-unsigned long previousMicros=0;
-
 void setup(){                            //start maze size  16;14;12;10; 8; 6; 4
   Grigoras.current_cell.x = 5;           // Start x position 0; 1; 2; 3; 4; 5; 6
   Grigoras.current_cell.y =10;          // Start y position 15;14;13;12;11;10; 9
@@ -63,7 +60,6 @@ void loop(){
   else{
     digitalWrite(13,LOW);
     turn=false;
-	Grigoras.readIRSensors();
     toMove = nextMove(stateMovement);
     robotMove();
   }

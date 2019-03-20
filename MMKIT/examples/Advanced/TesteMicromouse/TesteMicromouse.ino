@@ -1,4 +1,3 @@
-/**@file*/
 /*
   This example was created by Sérgio Silva
   on the 20th April 2015
@@ -45,7 +44,6 @@ unsigned char toMove = STATE_MOV_FRONT;
 char value = B00;
 unsigned int velocidade = 10;
 double aceleration = 1; //usada para chegar a velocidade
-unsigned long previousMicros=0;
 void setup() {
   pinMode(2, INPUT);
   pinMode(3, INPUT);

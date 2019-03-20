@@ -1,4 +1,3 @@
-/**@file*/
 /* 
  This example was created by Sérgio Silva
  on the 20th April 2015
@@ -31,7 +30,7 @@ enum statesRobotMovements {
   STATE_MOV_STOP
 };
 
-uint8_t Map[16][16] ={
+int Map[16][16] ={
   {    16, 15, 14, 13, 12, 11, 10,  9,  9, 10, 11, 12, 13, 14, 15, 16 },
   {    15, 14, 13, 12, 11, 10,  9,  8,  8,  9, 10, 11, 12, 13, 14, 15 },
   {    14, 13, 12, 11, 10,  9,  8,  7,  7,  8,  9, 10, 11, 12, 13, 14 },
@@ -57,7 +56,6 @@ boolean turn=false;
 unsigned int Step=0;
 unsigned int velocidade=10;
 double aceleration=1;  //usada para chegar a velocidade
-unsigned long previousMicros=0;
 
 void setup(){
   Grigoras.current_cell.x = 5;           // Start x position
@@ -85,7 +83,6 @@ void loop(){
   else{
     digitalWrite(13,LOW);
     turn=false;
-	Grigoras.readIRSensors();
     toMove = nextMove();
     robotMove();
 
@@ -134,14 +131,10 @@ void checkTrack(){
 
 void reMap() {
   for (int i = Step; i >= 0; i--) {
-    if((Grigoras.track[i].wall==B00000101)||(Grigoras.track[i].wall==B00000110)||(Grigoras.track[i].wall==B00000011)){
     Grigoras.track[i].weight++;
     Map[Grigoras.track[i].y][Grigoras.track[i].x] = Grigoras.track[i].weight;
-    }else{
-        Grigoras.current_cell.weight++;
-        break;
-    }
+  }
   Grigoras.current_cell.weight++;
 }
-}
+
 

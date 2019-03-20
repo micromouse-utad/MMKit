@@ -1,4 +1,3 @@
-/**@file*/
 /* 
  This example was created by Sérgio Silva
  on the 20th April 2015
@@ -30,7 +29,6 @@ unsigned char stateMovement = STATE_MOV_FRONT;
 unsigned char toMove = STATE_MOV_FRONT;
 unsigned int velocidade=10;
 double aceleration=1;  //usada para chegar a velocidade
-unsigned long previousMicros=0;
 void setup(){
   Grigoras.setupMMkit();                // Starts the MMkit
   Grigoras.goForward(20.0);              //distance to go forward in cm (18.0) means 18.0cm

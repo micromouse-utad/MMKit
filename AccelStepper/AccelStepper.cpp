@@ -645,3 +645,8 @@ void AccelStepper::stop()
 	    move(-stepsToStop);
     }
 }
+
+bool AccelStepper::isRunning()
+{
+    return !(_speed == 0.0 || _targetPos == _currentPos);
+}

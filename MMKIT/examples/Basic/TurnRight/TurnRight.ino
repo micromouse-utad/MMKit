@@ -1,4 +1,3 @@
-/**@file*/
 #include <AccelStepper.h>
 #include <MMkit.h>
 AccelStepper motorLeft(AccelStepper::DRIVER, 9, 8);
