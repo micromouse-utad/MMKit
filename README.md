@@ -18,27 +18,77 @@ Advanced:
 
 The robot as the following components
 
-![MMKit with labels](https://www.micromouse.utad.pt/wp-content/uploads/2016/05/MicromouseKit-3.png)
-
-| Label | Component                                      |
-|:-----:|:-----------------------------------------------|
-|    1  | Left IR Sensor                                 |
-|    2  | Forward Left IR Sensor                         |
-|    3  | AA Batteries Support (4 – AA)                  |
-|    4  | ON/OFF AA Batteries                            |
-|    5  | Left Stepper Motor                             |
-|    6  | Configurable Switches for Control Software     |
-|    7  | Connector for Right Motor                      |
-|    8  | Right IR Sensor                                |
-|    9  | Forward Right IR Sensor                        |
-|   10  | Bluetooth Connector (module not included)      |
-|   11  | LED pin 13 / Buzzer (Buzzer not included)      |
-|   12  | LED ON/OFF                                     |
-|   13  | Jumper for Selection AA Batteries/LiPo Battery |
-|   14  | Right Stepper Motor                            |
-|   15  | ON/OFF LiPo Battery (Battery not included)     |
-|   16  | Connector for Left Motor                       |
-
+<table>
+  <tr>
+    <th>Label</th>
+    <th>Component</th>
+    <th>Image</th>
+  <tr>
+    <td>1</td>
+    <td>Left IR Sensor</td>
+    <td rowspan="16"><img src="https://www.micromouse.utad.pt/wp-content/uploads/2016/05/MicromouseKit-3.png"</img></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Forward Left IR Sensor</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>AA Batteries Support (4 – AA)</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>ON/OFF AA Batteries</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Left Stepper Motor</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Configurable Switches for Control Software</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Connector for Right Motor</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Right IR Sensor</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Forward Right IR Sensor</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Bluetootd Connector (module not included)</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>LED pin 13 / Buzzer (Buzzer not included)</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>LED ON/OFF</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Jumper for Selection AA Batteries/LiPo Battery</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Right Stepper Motor</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>ON/OFF LiPo Battery (Battery not included)    </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Connector for Left Motor</td>
+  </tr>
+</table>
 
 ## Installation
 
