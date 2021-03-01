@@ -26,7 +26,7 @@ The robot as the following components
   <tr>
     <td>1</td>
     <td>Left IR Sensor</td>
-    <td rowspan="16"><img src="https://www.micromouse.utad.pt/wp-content/uploads/2016/05/MicromouseKit-3.png"</img></td>
+    <td rowspan="16"><img src="https://raw.githubusercontent.com/micromouse-utad/MMKit-PH/master/imgs/mmkit_components.jpeg"</img></td>
   </tr>
   <tr>
     <td>2</td>
